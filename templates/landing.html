@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song Recommendation Chatbot</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 800px;
+        }
+        .landing-header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .landing-content {
+            padding: 30px;
+            margin-top: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .chat-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 80px; /* Adjust the width to make it bigger */
+            height: 80px; /* Adjust the height to make it bigger */
+            text-align: center;
+            font-size: 24px;
+            cursor: pointer;
+            animation: bounce 1s infinite;
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-20px);
+            }
+            60% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="landing-header">
+        <div class="container">
+            <h1>Predict Your Music!!!</h1>
+            <p>This is a Minor Project for MCA 3rd Semester.</p>
+            <p>Whole Prediction model is made using NLP and advanced machine learning.</p>
+            <p>Please go through our documentation for more details</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="landing-content">
+            <h2>Role of the Members in this Project</h2>
+            <dl>
+            <dt>1. Subhojit Mitra, Lead Developer</dt>
+            <dd>Student, MCA, NiT, Agarpara</dd>
+            <dt>2. Raunaq Dey, Data Analyst</dt>
+            <dd>Student, MCA, NiT, Agarpara</dd>
+            <dt>3. Niramlya Bose, Project Manager</dt>
+            <dd>Student, MCA, NiT, Agarpara</dd>
+            <dt>4. Rusha Mandal, Content Writer</dt>
+            <dd>Student, MCA, NiT, Agarpara</dd>
+            </dl>
+            <a href="#" >See project documentation </a>
+        </div>
+    </div>
+
+    <!-- Floating Chat Button -->
+    <a href="/index"> <button class="chat-button">Chat</button></a>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
